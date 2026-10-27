@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Tec5 Cartelera</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="logo.png" alt="E.E.S.T. N°5">
+        </div>
+
+        <div class="espacio"></div>
+
+        <h2>SUBIR VIDEO</h2>
+
+    </header>
+
+    <section>
+
+        <form>
+
+            <h1>Compartir un video</h1>
+
+            <p>Completa los datos para enviar tu video a la cartelera escolar.</p>
+
+            <div class="dato">
+                <label>Nombre del video</label>
+                <input type="text" placeholder="Ej: Proyecto de programación">
+            </div>
+
+            <div class="dato">
+                <label>Especialidad</label>
+
+                <select>
+                    <option value="">Selecciona una especialidad</option>
+                    <option value="informatica">Informática</option>
+                    <option value="electronica">Electrónica</option>
+                    <option value="construcciones">Construcciones</option>
+                </select>
+            </div>
+
+            <div class="dato">
+                <label>Descripción</label>
+                <textarea placeholder="Contanos brevemente de qué trata el video"></textarea>
+            </div>
+
+            <div class="dato">
+                <label>Etiquetas</label>
+
+                <div class="etiquetas">
+                    <input type="text" id="etiqueta" placeholder="Ej: programación">
+                    <button type="button">Agregar</button>
+                </div>
+
+                <div class="listaetiquetas">
+                </div>
+            </div>
+
+            <div class="dato">
+                <label>Link del video</label>
+                <input type="url" placeholder="Pegá el enlace de Google Drive">
+            </div>
+
+            <div class="dato">
+                <label>Curso</label>
+                <input type="text" placeholder="Ej: 5°4°">
+            </div>
+
+            <div class="dato">
+                <label>Nombre de quien sube el video</label>
+                <input type="text" placeholder="Nombre y apellido">
+            </div>
+
+            <div class="aceptar">
+                <input type="checkbox">
+                <span>Acepto que el video pueda aparecer en la cartelera escolar.</span>
+            </div>
+
+            <button class="enviar" type="submit">Enviar video</button>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>E.E.S.T. N°5</p>
+    </footer>
+
+</body>
+</html>

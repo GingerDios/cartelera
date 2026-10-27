@@ -1,0 +1,145 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 5vh;
+    color: white;
+}
+
+header{
+    height: 15vh;
+    width: 100%;
+
+    background:linear-gradient(to right,rgb(32, 83, 32),green,rgb(32, 83, 32));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .espacio{
+    width: 50%;
+}
+
+.logo{
+    height: 12vh;
+    width: 12vh;
+    background-color: white;
+    border-radius: 50vh;
+    border: 0.5vh solid rgb(0, 50, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 12vh;
+    width: 12vh;
+}
+
+h2{
+    font-size: 6vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**/
+
+section{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to right,rgb(105, 160, 103),rgb(199, 255, 201),rgb(105, 160, 103));
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.principal{
+    height: 70vh;
+    width: 85%;
+    background-color: rgb(9, 31, 60);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 2vh;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 40px;
+}
+
+.marcovideo{
+    height: 54vh;
+    width: 85%;
+
+    background-color: rgba(0, 0, 0, 0.542);
+
+    border: 0.4vh solid rgb(0, 213, 255);
+    border-radius: 1vh;
+
+    overflow: hidden;
+
+    box-shadow: rgba(0, 213, 255, 0.25) 0px 0px 20px;
+    margin-bottom: -2vh;
+}
+
+.marcovideo video{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.informacion{
+    height: 10vh;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(20, 43, 74);
+
+    border-radius: 1vh;
+
+    border: 0.2vh solid rgb(0, 213, 255);
+}
+
+h3{
+    font-size: 3.5vh;
+    color: rgb(0, 213, 255);
+    margin: 0.5vh;
+}
+
+p{
+    font-size: 3vh;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/**/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+    width: 100%;
+
+    background:linear-gradient(to right,rgb(32, 83, 32),green,rgb(32, 83, 32));
+}
+
+footer p{
+    font-size: 4vh;
+    color: white;
+}
